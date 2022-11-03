@@ -1,0 +1,63 @@
+body{
+    background-color: bisque;
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+/* color de los iconos */
+.color{
+    color: white;
+}
+
+.color-hover:hover{
+    color: rgb(89, 236, 152);
+}
+
+.foto-banner{
+ background-image: url(imagenes/banner.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 40vw;
+ min-height: 200px;
+ max-height: 400px;
+}
+
+.container-perfil{
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    transform: translateY(100%);
+}
+
+.container-perfil-img{
+    width: 20vw;
+    max-width: 350px;
+    min-width: 120px;
+}
+
+.foto-perfil{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.container-perfil h1{
+    margin-left: 5%;
+}
+
+main{
+    margin: 0 2%;
+}
+
+.container-sobre-mi{
+    margin-top: 200px;
+}
+
+.progress{
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+}
